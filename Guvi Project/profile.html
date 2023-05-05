@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Profile Page</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="profile.js"></script>
+  </head>
+  <body>
+    <h1>User Profile</h1>
+    <div id="profile">
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>User ID:</strong> <span id="user-id"></span></p>
+      <p><strong>Age:</strong> <span id="age"></span></p>
+      <p><strong>Date of Birth:</strong> <span id="dob"></span></p>
+      <p><strong>Mobile:</strong> <span id="mobile"></span></p>
+    </div>
+    <br>
+    <button id="update-btn">Update Details</button>
+    <br><br>
+    <div id="update-form" style="display: none;">
+      <h2>Update User Details</h2>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="user-id">User ID:</label>
+        <input type="text" id="user-id" name="user-id"><br><br>
+        <label for="password">New Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="mobile">Mobile:</label>
+        <input type="tel" id="mobile" name="mobile"><br><br>
+        <button type="button" id="cancel-btn">Cancel</button>
+        <button type="submit" id="submit-btn">Update</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+#profile-info {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #profile-info h2 {
+    margin-top: 20px;
+  }
+  
+  #profile-info label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #profile-info input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+  }
+  
